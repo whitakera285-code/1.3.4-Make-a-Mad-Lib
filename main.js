@@ -1,5 +1,10 @@
-var adjective1 = prompt('Provide an adjective.');
-var adjective2 = prompt('Provide another adjective.');
-var adverb = prompt('Provide an adverb.');
+// Assign variables
+var adjective1 = 'blue';
+var adjective2 = 'fast';
+var adverb = 'quickly';
 
-// Write your code below
+// Create mad lib with variables
+var story = 'The ' + adjective1 + ' ' + adjective2 + ' ' + adverb + '.';
+
+// Print result
+console.log(story);
